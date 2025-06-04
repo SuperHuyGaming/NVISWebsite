@@ -1,0 +1,26 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+	border-bottom: 10px solid #ccff00;
+}
+.Buttons {
+	display: flex;
+	gap: 1rem;
+}
+.HeaderButton {
+	margin-left: 1rem;
+	border-color: #e35807;
+	text-decoration-color: red;
+}
+
+.Logo {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+

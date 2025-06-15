@@ -1,6 +1,8 @@
 body {
-	background-color: #e6d8ad; /* soft premium beige */
+	background-color: #d5d3cd; /* soft premium beige */
 	margin: 0; /* remove default margin */
 	font-family: Arial, sans-serif; /* nice clean font */
 	min-height: 100vh; /* ensure body covers full viewport height */
+
+	padding-top: 80px; /* adjust based on your header height */
 }

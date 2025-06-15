@@ -4,17 +4,18 @@ import Button from "@mui/material/Button";
 
 export default function Header() {
 	const sx = {
-		color: "red", // text color
-		borderColor: "red", // border color
+		color: "black",
+		backgroundColor: "#DDDDDD",
+
 		"&:hover": {
-			backgroundColor: "blue",
-			color: "white",
-			borderColor: "darkblue",
+			backgroundColor: "#DAF5FF",
+			color: "#2192FF",
 		},
 	};
+
 	return (
 		<header className="Header">
-			<img src="./library/nvisLogo.png" class="Logo"></img>
+			<img src="./library/nvisLogo.png" className="Logo" alt="Logo" />
 			<div className="Buttons">
 				<Button className="HeaderButton" variant="outlined" sx={sx}>
 					Home
